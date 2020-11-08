@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  cursor: default;
+}
+::selection {
+  background-color: transparent;
+}
+.m-header {
+  height: 40px;
+  background-color: #252526;
+  line-height: 40px;
+}
+.m-navigator-item {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 12px;
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #cccccc;
+  word-break: break-all;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.m-navigator-item.s-active {
+  background-color: #1e1e1e;
+}
+
+.m-close {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 6px;
+  cursor: pointer;
+}
+.m-close:hover {
+  color: #FFFFFF;
+}
